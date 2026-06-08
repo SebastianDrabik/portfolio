@@ -5,6 +5,7 @@ import {TanStackDevtools} from '@tanstack/react-devtools'
 import appCss from '../styles.css?url'
 import {Header} from "#/components/Header.tsx";
 import {Footer} from "#/components/Footer.tsx";
+import {richMedia} from "#/lib/media-util.ts";
 
 export const Route = createRootRoute({
     head: () => ({
@@ -19,6 +20,7 @@ export const Route = createRootRoute({
             {
                 title: 'Sebastian Drabik • Software Engineer',
             },
+            ...richMedia
         ],
         links: [
             {
