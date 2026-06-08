@@ -40,7 +40,7 @@ function RootDocument({children}: { children: React.ReactNode }) {
         <head>
             <HeadContent/>
         </head>
-        <body className="bg-gray-800 text-gray-900 font-jetbrains-mono font-bold">
+        <body className="bg-background text-gray-900 font-jetbrains-mono font-bold dark">
         <Header/>
         {children}
         <TanStackDevtools
