@@ -16,7 +16,7 @@ export function Hero() {
 					<div className={HeroBg.stars3}></div>
 				</div>
 			</div>
-			<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-zen-dots">
+			<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-zen">
 				<h1 className="text-7xl font-bold text-primary mb-4">
 					Hi, I'm Sebastian
 				</h1>

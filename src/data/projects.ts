@@ -1,4 +1,7 @@
 import seis_thumbnail from "#/assets/SEIS_thumbnail.jpg";
+import tfp_thumbnail from "#/assets/TFP_thumbnail.png";
+import newHero_thumbnail from "#/assets/newHero_thumbnail.png";
+import newHero2_thumbnail from "#/assets/newHero2_thumbnail.png";
 
 export type Project = {
 	id: number;
@@ -18,47 +21,47 @@ export const projects: Project[] = [
 		description:
 			"Zero-knowledge age verification system built for HackCarpathia 2026. Uses token splitting and privacy-by-design architecture so identity is verified without exposing personal data.",
 		github_url: "https://github.com/KacperBronka/SEIS",
-		tech_stack: ["Go", "PostgreSQL", "Docker"],
+		tech_stack: ["TypeScript", "MySQL", "Docker", "OCI", "Python", "C#"],
 		image: seis_thumbnail,
-		note: "HACKCARPATHIA 2026",
+		note: "HACKCARPATHIA 2026 | category winner",
 		status: "done",
 	},
 	{
 		id: 2,
-		title: "SEIS",
+		title: "new Hero( );",
 		description: "Single Endpoint ID Service",
 		github_url: "https://github.com/KacperBronka/SEIS",
 		tech_stack: ["Go", "PostgreSQL", "Docker"],
-		image: "/images/projects/seis.png",
+		image: newHero_thumbnail,
 		note: "HACKCARPATHIA 2026",
 		status: "done",
 	},
 	{
 		id: 3,
-		title: "SEIS",
+		title: "new Hero 2",
 		description: "Single Endpoint ID Service",
 		github_url: "https://github.com/KacperBronka/SEIS",
 		tech_stack: ["Go", "PostgreSQL", "Docker"],
-		image: "/images/projects/seis.png",
+		image: newHero2_thumbnail,
 		note: "HACKCARPATHIA 2026",
 		status: "done",
 	},
 	{
 		id: 4,
-		title: "SEIS",
+		title: "The Final Parsec",
 		description: "Single Endpoint ID Service",
 		github_url: "https://github.com/KacperBronka/SEIS",
 		tech_stack: ["Go", "PostgreSQL", "Docker"],
-		image: "/images/projects/seis.png",
+		image: tfp_thumbnail,
 		note: "HACKCARPATHIA 2026",
 		status: "done",
 	},
 	{
 		id: 5,
-		title: "SEIS",
+		title: "AI4Youth",
 		description: "Single Endpoint ID Service",
 		github_url: "https://github.com/KacperBronka/SEIS",
-		tech_stack: ["Go", "PostgreSQL", "Docker"],
+		tech_stack: ["Python", "ComputerVision"],
 		image: "/images/projects/seis.png",
 		note: "HACKCARPATHIA 2026",
 		status: "done",

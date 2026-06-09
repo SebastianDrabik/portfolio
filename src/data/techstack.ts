@@ -1,12 +1,12 @@
 export const techstack = [
 	{
 		section: "languages",
-		section_color: "#7EFF00",
+		section_color: "#39BDF8",
 		items: ["TypeScript", "Python", "SQL", "C#"],
 	},
 	{
 		section: "frameworks & libraries",
-		section_color: "#39BDF8",
+		section_color: "#7EFF00",
 		items: ["Tanstack Start", "React", "Tailwind CSS", "Unity"],
 	},
 	{

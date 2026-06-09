@@ -16,8 +16,8 @@ function ProjectCard({ project }: { project: Project }) {
 	// TODO: add dialog with project info
 
 	return (
-		<Card className="relative mx-auto w-full pt-0">
-			<div className="absolute inset-0 z-30 aspect-video bg-black/35" />
+		<Card className="relative mx-auto w-full pt-0 overflow-hidden">
+			<div className="absolute inset-0 z-30 aspect-video" />
 			<img
 				src={project.image}
 				alt={project.title}
@@ -33,7 +33,16 @@ function ProjectCard({ project }: { project: Project }) {
 					<p className="text-primary">{project.title}</p>
 					<p className="text-muted-foreground text-sm">{project.note}</p>
 				</CardTitle>
-				<CardDescription>{project.description}</CardDescription>
+				<CardDescription>
+					<p>{project.description}</p>
+					<div className="flex flex-wrap mt-1">
+						{project.tech_stack.map((t) => (
+							<Badge variant="outline" key={t} className="mt-2 mr-2">
+								{t}
+							</Badge>
+						))}
+					</div>
+				</CardDescription>
 			</CardHeader>
 			<CardFooter>
 				<ButtonWithIcon icon={MdArrowOutward} className="w-full">
