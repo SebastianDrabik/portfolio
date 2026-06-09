@@ -3,6 +3,7 @@ const data = {
 	description: "Sebastian Drabik • Software Engineer",
 	url: "https://sebastiandrabik.dev/",
 	img: "/icon/android-chrome-512x512.png",
+	meta: "Official CV and portfolio of Sebastian Drabik who specializes in web and game dev",
 };
 
 export const richMedia = [
@@ -37,5 +38,9 @@ export const richMedia = [
 	{
 		name: "twitter:image",
 		content: data.img,
+	},
+	{
+		name: "description",
+		content: data.meta,
 	},
 ];

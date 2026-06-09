@@ -1,8 +1,10 @@
 import HeroBg from "#/styles/HeroBackground.module.css";
 
 export function Hero() {
+	// TODO: Hero background with canvas(p5.js)
+
 	return (
-		<main className="w-full h-screen relative">
+		<main className="w-full h-screen relative snap-center">
 			<div className={`${HeroBg.container_hero} absolute inset-0`}>
 				<div className={HeroBg.stars}></div>
 				<div className={HeroBg.stars2}></div>
@@ -21,6 +23,9 @@ export function Hero() {
 				<p className="text-xl text-gray-300">
 					Software Engineer specializing in web development and cloud computing.
 				</p>
+				{/*<div className="flex gap-4 items-center justify-center w-full">*/}
+				{/*	<Button>CV</Button>*/}
+				{/*</div>*/}
 			</div>
 		</main>
 	);
