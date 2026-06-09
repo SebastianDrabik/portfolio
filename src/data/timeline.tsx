@@ -16,47 +16,6 @@ export type TimelineEvent = {
 
 export const timeline: TimelineEvent[] = [
 	{
-		id: 2,
-		name: "Praktyki zawodowe",
-		description: <>Miesięczne praktyki zawodowe w ramach nauki w technikum</>,
-		info: ["InfoSoftware Polska"],
-		time_period: {
-			start: {
-				month: 7,
-				year: 2023,
-			},
-		},
-	},
-	{
-		id: 4,
-		name: "Erasmus+",
-		description: (
-			<>
-				Miesięczne praktyki zawodowe w ramach programu Erasmus+ w firmie
-				Edugep(Setúbal, Portugalia)
-			</>
-		),
-		info: ["Edugep", "Portugalia"],
-		time_period: {
-			start: {
-				month: 7,
-				year: 2024,
-			},
-		},
-	},
-	{
-		id: 3,
-		name: "Praktyki zawodowe",
-		description: <>Miesięczne praktyki zawodowe w ramach nauki w technikum</>,
-		info: ["InfoSoftware Polska"],
-		time_period: {
-			start: {
-				month: 10,
-				year: 2025,
-			},
-		},
-	},
-	{
 		id: 1,
 		name: "Szkoła średnia - Technik Programista",
 		description: (
@@ -81,6 +40,58 @@ export const timeline: TimelineEvent[] = [
 			end: {
 				month: 4,
 				year: 2026,
+			},
+		},
+	},
+	{
+		id: 3,
+		name: "Praktyki zawodowe",
+		description: (
+			<>
+				Rozwój i wdrażanie stron WWW. Praca z ekosystemem WordPress. Zajmowałem
+				się także automatyzacją i pomocą zespołowi.
+			</>
+		),
+		info: ["InfoSoftware Polska"],
+		time_period: {
+			start: {
+				month: 10,
+				year: 2025,
+			},
+		},
+	},
+	{
+		id: 4,
+		name: "Erasmus+ - praktyki",
+		description: (
+			<>
+				Programowanie robotów oraz montaż i edycja materiałów wideo w
+				międzynarodowym środowisku.
+			</>
+		),
+		info: ["Edugep", "Portugalia"],
+		time_period: {
+			start: {
+				month: 7,
+				year: 2024,
+			},
+		},
+	},
+	{
+		id: 2,
+		name: "Praktyki zawodowe",
+		description: (
+			<>
+				Tworzenie i konfiguracja stron internetowych z wykorzystaniem systemu
+				CMS WordPress. Dostosowywanie motywów i podstawowa administracja
+				witrynami.
+			</>
+		),
+		info: ["InfoSoftware Polska"],
+		time_period: {
+			start: {
+				month: 7,
+				year: 2023,
 			},
 		},
 	},

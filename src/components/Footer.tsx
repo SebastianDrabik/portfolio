@@ -9,7 +9,7 @@ export function Footer() {
 				/>
 				Sebastian Drabik &copy;2026
 			</div>
-			<div>sebastiandrabik.dev</div>
+			<div>sdrabik.dev</div>
 		</footer>
 	);
 }

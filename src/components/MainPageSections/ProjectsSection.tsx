@@ -30,7 +30,7 @@ function ProjectCard({ project }: { project: Project }) {
 					</CardAction>
 				)}
 				<CardTitle>
-					<p className="text-primary">{project.title}</p>
+					<h3 className="text-primary text-xl">{project.title}</h3>
 					<p className="text-muted-foreground text-sm">
 						{project.notes.join(" • ")}
 					</p>
@@ -58,7 +58,7 @@ function ProjectCard({ project }: { project: Project }) {
 					className="w-full"
 					onClick={() => window.open(project.url, "_blank")}
 				>
-					Explore
+					Dowiedz się więcej
 				</ButtonWithIcon>
 			</CardFooter>
 		</Card>
@@ -67,7 +67,7 @@ function ProjectCard({ project }: { project: Project }) {
 
 export function ProjectsSection() {
 	return (
-		<Section title={"Chosen projects"} tag={"projects"} bgMode={"secondary"}>
+		<Section title={"Wybrane projekty"} tag={"projects"} bgMode={"secondary"}>
 			<div className={"grid grid-cols-1 md:grid-cols-2 gap-4"}>
 				{featuredProjects.map((project) => (
 					<ProjectCard project={project} key={project.id} />

@@ -18,19 +18,18 @@ export const projects: Project[] = [
 	{
 		id: 1,
 		title: "SEIS",
-		description:
-			"System weryfikacji wieku oparty na zero-knowladge. Projekt powstał na HackCarpathia 2026 zdobywając 2 miejsce w etapie regionalnym(Krosno) oraz był rozwijany w trakcie finałów(Rzeszów) zdobywając wyróżnienie",
+		description: "Bezpieczny system weryfikacji wieku w internecie.",
 		url: "https://github.com/KacperBronka/SEIS",
 		tech_stack: ["TypeScript", "MySQL", "Docker", "OCI", "Python", "C#"],
 		image: seis_thumbnail,
-		notes: ["HackCarpathia 2026", "category winner"],
+		notes: ["HackCarpathia 2026", "zwycięzca kategorii cybersecurity"],
 		status: "done",
 	},
 	{
 		id: 2,
 		title: "new Hero( );",
 		description:
-			"Fabularna gra 2D. Głównym celem gracza jest pokonywanie kolejnych wrogów za pomocą kodu C++",
+			"Fabularna gra 2D. Głównym celem gracza jest pokonywanie kolejnych wrogów za pomocą kodu C++.",
 		url: "https://newhero-project.web.app/",
 		tech_stack: ["C#", "Unity", "Blender"],
 		image: newHero_thumbnail,
@@ -41,7 +40,7 @@ export const projects: Project[] = [
 		id: 3,
 		title: "new Hero 2",
 		description:
-			"Fabularna gra 2D, będąca kontynuacją serii new Hero( ). W tej części gracz uczy się o zagrożeniach w sieci oraz metodach przeciwdziałania im",
+			"Fabularna gra 2D, będąca kontynuacją serii new Hero( ). W tej części gracz uczy się o zagrożeniach w sieci oraz metodach przeciwdziałania im.",
 		url: "",
 		tech_stack: ["C#", "Unity", "Blender"],
 		image: newHero2_thumbnail,

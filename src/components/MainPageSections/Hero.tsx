@@ -24,9 +24,6 @@ export function Hero() {
 					<br />
 					<span className="text-primary">Drabik</span>
 				</h1>
-				{/*<p className="text-xl text-gray-300">*/}
-				{/*	Software Engineer*/}
-				{/*</p>*/}
 				<div className="bg-card text-start p-3 rounded-sm flex flex-col absolute w-lg mt-8 left-1/2 -translate-x-1/2">
 					<div className="flex flex-col items-center justify-center relative mb-3">
 						<div className="flex gap-1 absolute left-0 top-1/2 -translate-y-1/2">
@@ -40,11 +37,10 @@ export function Hero() {
 					</div>
 					<Typewriter
 						phrases={[
-							"TanStack Start dev",
-							"cloud infra nerd",
+							"backend dev",
 							"competitive programmer",
-							"open source contributor",
 							"hackathon finalist",
+							"game developer",
 						]}
 						pauseAfter={2000}
 						typeSpeed={80}
@@ -53,10 +49,6 @@ export function Hero() {
 						className="text-primary font-mono text-sm"
 					/>
 				</div>
-				{/*<div className="flex gap-4 items-center justify-center w-full">*/}
-				{/*	<Button>Get in touch</Button>*/}
-				{/*	<Button>See my work</Button>*/}
-				{/*</div>*/}
 			</div>
 		</main>
 	);

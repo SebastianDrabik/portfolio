@@ -2,7 +2,7 @@ export const techstack = [
 	{
 		section: "languages",
 		section_color: "#39BDF8",
-		items: ["TypeScript", "Python", "SQL", "C#", "PHP"],
+		items: ["TypeScript", "Python", "SQL", "C#", "PHP", "Java"],
 	},
 	{
 		section: "frameworks & libraries",
@@ -18,9 +18,14 @@ export const techstack = [
 			"Cloudflare",
 			"Nginx",
 			"MySQL, PostgreSQL",
+			"MS Excel, MS Word",
 			"Linux",
 			"Git / Github",
-			"Excel",
 		],
+	},
+	{
+		section: "Artificial Intelligence",
+		section_color: "#d23efb",
+		items: ["Claude Code", "Gemini", "Ollama"],
 	},
 ];

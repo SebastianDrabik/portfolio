@@ -6,7 +6,7 @@ import { Dot } from "#/components/ui/dot.tsx";
 
 export function TechStackSection() {
 	return (
-		<Section tag="tech-stack" title="Tools I use">
+		<Section tag="tech-stack" title="Narzędzia z jakich korzystam">
 			<div className="flex flex-col gap-6">
 				{techstack.map((t) => (
 					<div key={t.section}>
