@@ -1,4 +1,4 @@
-import { Section } from "./Section";
+import { Section } from "../Section.tsx";
 import { featuredProjects, type Project } from "#/data/projects.ts";
 import {
 	Card,
@@ -7,8 +7,8 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+} from "#/components/ui/card.tsx";
+import { Badge } from "#/components/ui/badge.tsx";
 import { MdArrowOutward } from "react-icons/md";
 import { ButtonWithIcon } from "#/components/ButtonWithIcon.tsx";
 
@@ -31,13 +31,21 @@ function ProjectCard({ project }: { project: Project }) {
 				)}
 				<CardTitle>
 					<p className="text-primary">{project.title}</p>
-					<p className="text-muted-foreground text-sm">{project.note}</p>
+					<p className="text-muted-foreground text-sm">
+						{project.notes.join(" • ")}
+					</p>
 				</CardTitle>
 				<CardDescription>
-					<p>{project.description}</p>
+					<p className="h-16 overflow-hidden text-ellipsis">
+						{project.description}
+					</p>
 					<div className="flex flex-wrap mt-1">
 						{project.tech_stack.map((t) => (
-							<Badge variant="outline" key={t} className="mt-2 mr-2">
+							<Badge
+								variant="outline"
+								key={Math.random().toString()}
+								className="mt-2 mr-2"
+							>
 								{t}
 							</Badge>
 						))}
@@ -45,7 +53,11 @@ function ProjectCard({ project }: { project: Project }) {
 				</CardDescription>
 			</CardHeader>
 			<CardFooter>
-				<ButtonWithIcon icon={MdArrowOutward} className="w-full">
+				<ButtonWithIcon
+					icon={MdArrowOutward}
+					className="w-full"
+					onClick={() => window.open(project.url, "_blank")}
+				>
 					Explore
 				</ButtonWithIcon>
 			</CardFooter>

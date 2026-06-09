@@ -2,7 +2,7 @@ export const techstack = [
 	{
 		section: "languages",
 		section_color: "#39BDF8",
-		items: ["TypeScript", "Python", "SQL", "C#"],
+		items: ["TypeScript", "Python", "SQL", "C#", "PHP"],
 	},
 	{
 		section: "frameworks & libraries",

@@ -1,4 +1,4 @@
-import { Section } from "./Section";
+import { Section } from "../Section.tsx";
 import { CommentSpan } from "#/components/ui/comment.tsx";
 import { ButtonWithIcon } from "#/components/ButtonWithIcon.tsx";
 import { DiGithubBadge } from "react-icons/di";

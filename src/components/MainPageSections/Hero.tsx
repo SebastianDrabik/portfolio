@@ -19,7 +19,7 @@ export function Hero() {
 				</div>
 			</div>
 			<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-				<h1 className="text-7xl font-bold text-foreground font-zen-dots">
+				<h1 className="text-7xl font-bold text-foreground">
 					Sebastian
 					<br />
 					<span className="text-primary">Drabik</span>
@@ -30,9 +30,9 @@ export function Hero() {
 				<div className="bg-card text-start p-3 rounded-sm flex flex-col absolute w-lg mt-8 left-1/2 -translate-x-1/2">
 					<div className="flex flex-col items-center justify-center relative mb-3">
 						<div className="flex gap-1 absolute left-0 top-1/2 -translate-y-1/2">
-							<Dot color="#FD5E58" />
-							<Dot color="#FEBB2F" />
-							<Dot color="#2AC942" />
+							<Dot color="#FD5E58" dotSize={2} />
+							<Dot color="#FEBB2F" dotSize={2} />
+							<Dot color="#2AC942" dotSize={2} />
 						</div>
 						<span className="font-mono text-gray-300 text-sm">
 							user@sdrabik.dev

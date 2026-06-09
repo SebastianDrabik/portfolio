@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Hero } from "#/components/Hero.tsx";
-import { AboutSection } from "#/components/AboutSection.tsx";
-import { ContactSection } from "#/components/ContactSection.tsx";
-import { ProjectsSection } from "#/components/ProjectsSection.tsx";
-import { TechStackSection } from "#/components/TechStackSection.tsx";
-import { CareerSection } from "#/components/CareerSection.tsx";
+import { Hero } from "#/components/MainPageSections/Hero.tsx";
+import { AboutSection } from "#/components/MainPageSections/AboutSection.tsx";
+import { ContactSection } from "#/components/MainPageSections/ContactSection.tsx";
+import { ProjectsSection } from "#/components/MainPageSections/ProjectsSection.tsx";
+import { TechStackSection } from "#/components/MainPageSections/TechStackSection.tsx";
+import { CareerSection } from "#/components/MainPageSections/CareerSection.tsx";
 
 export const Route = createFileRoute("/")({ component: Home });
 
