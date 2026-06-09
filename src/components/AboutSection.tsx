@@ -3,7 +3,7 @@ import { Section } from "#/components/Section.tsx";
 export function AboutSection() {
 	return (
 		<Section title={"About Me"} tag={"about"}>
-			<p>
+			<p className="font-sans">
 				I'm a software engineer with a passion for building scalable and
 				efficient applications. With over 10 years of experience in the
 				industry, I have worked on a wide range of projects, from small startups

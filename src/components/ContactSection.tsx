@@ -41,7 +41,7 @@ export function ContactSection() {
 						</a>
 					</ButtonWithIcon>
 					<ButtonWithIcon icon={FaLinkedin} variant="outline">
-						<a href="https://www.linkedin.com/in/sebastian-drabik-a94855339/">
+						<a href="https://www.linkedin.com/in/sebastiandrabik/">
 							LinkedIn / Sebastian Drabik
 						</a>
 					</ButtonWithIcon>

@@ -1,7 +1,7 @@
-import seis_thumbnail from "#/assets/SEIS_thumbnail.jpg";
-import tfp_thumbnail from "#/assets/TFP_thumbnail.png";
 import newHero_thumbnail from "#/assets/newHero_thumbnail.png";
 import newHero2_thumbnail from "#/assets/newHero2_thumbnail.png";
+import seis_thumbnail from "#/assets/SEIS_thumbnail.jpg";
+import tfp_thumbnail from "#/assets/TFP_thumbnail.png";
 
 export type Project = {
 	id: number;

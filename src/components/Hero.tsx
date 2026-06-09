@@ -1,4 +1,6 @@
 import HeroBg from "#/styles/HeroBackground.module.css";
+import Typewriter from "#/components/ui/typewriter.tsx";
+import { Dot } from "#/components/ui/dot.tsx";
 
 export function Hero() {
 	// TODO: Hero background with canvas(p5.js)
@@ -16,15 +18,44 @@ export function Hero() {
 					<div className={HeroBg.stars3}></div>
 				</div>
 			</div>
-			<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-zen">
-				<h1 className="text-7xl font-bold text-primary mb-4">
-					Hi, I'm Sebastian
+			<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+				<h1 className="text-7xl font-bold text-foreground font-zen-dots">
+					Sebastian
+					<br />
+					<span className="text-primary">Drabik</span>
 				</h1>
-				<p className="text-xl text-gray-300">
-					Software Engineer specializing in web development and cloud computing.
-				</p>
+				{/*<p className="text-xl text-gray-300">*/}
+				{/*	Software Engineer*/}
+				{/*</p>*/}
+				<div className="bg-card text-start p-3 rounded-sm flex flex-col absolute w-lg mt-8 left-1/2 -translate-x-1/2">
+					<div className="flex flex-col items-center justify-center relative mb-3">
+						<div className="flex gap-1 absolute left-0 top-1/2 -translate-y-1/2">
+							<Dot color="#FD5E58" />
+							<Dot color="#FEBB2F" />
+							<Dot color="#2AC942" />
+						</div>
+						<span className="font-mono text-gray-300 text-sm">
+							user@sdrabik.dev
+						</span>
+					</div>
+					<Typewriter
+						phrases={[
+							"TanStack Start dev",
+							"cloud infra nerd",
+							"competitive programmer",
+							"open source contributor",
+							"hackathon finalist",
+						]}
+						pauseAfter={2000}
+						typeSpeed={80}
+						deleteSpeed={40}
+						prefix="~$"
+						className="text-primary font-mono text-sm"
+					/>
+				</div>
 				{/*<div className="flex gap-4 items-center justify-center w-full">*/}
-				{/*	<Button>CV</Button>*/}
+				{/*	<Button>Get in touch</Button>*/}
+				{/*	<Button>See my work</Button>*/}
 				{/*</div>*/}
 			</div>
 		</main>
