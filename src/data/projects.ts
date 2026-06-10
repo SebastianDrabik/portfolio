@@ -26,17 +26,6 @@ export const projects: Project[] = [
 		status: "done",
 	},
 	{
-		id: 2,
-		title: "new Hero( );",
-		description:
-			"Fabularna gra 2D. Głównym celem gracza jest pokonywanie kolejnych wrogów za pomocą kodu C++.",
-		url: "https://newhero-project.web.app/",
-		tech_stack: ["C#", "Unity", "Blender"],
-		image: newHero_thumbnail,
-		notes: ["GEEK 2022/23", "2 miejsce w kraju"],
-		status: "done",
-	},
-	{
 		id: 3,
 		title: "new Hero 2",
 		description:
@@ -56,6 +45,17 @@ export const projects: Project[] = [
 		tech_stack: ["C#", "Unity", "Blender"],
 		image: tfp_thumbnail,
 		notes: ["GEEK 2025/26", "Zwycięzca w województwie"],
+		status: "done",
+	},
+	{
+		id: 2,
+		title: "new Hero( );",
+		description:
+			"Fabularna gra 2D. Głównym celem gracza jest pokonywanie kolejnych wrogów za pomocą kodu C++.",
+		url: "https://newhero-project.web.app/",
+		tech_stack: ["C#", "Unity", "Blender"],
+		image: newHero_thumbnail,
+		notes: ["GEEK 2022/23", "2 miejsce w kraju"],
 		status: "done",
 	},
 	{

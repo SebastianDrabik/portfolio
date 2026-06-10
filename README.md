@@ -32,6 +32,7 @@ Domeną zarządza Cloudflare.
 - Docker
 
 ## Roadmap:
+  - [x] Docker
   - [ ] Gwiazdki w tle sekcji Hero dynamicznie z p5js oraz ciekawy efekt(np. na podstawie commitow z GH) 
   - [ ] Animacje na stronie
   - [ ] Blog

@@ -1,0 +1,9 @@
+.output
+.tanstack
+.vscode
+node_modules
+.cursorrules
+docker-compose.yml
+railway.toml
+README.md
+.idea
