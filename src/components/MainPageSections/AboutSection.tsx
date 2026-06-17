@@ -40,8 +40,8 @@ export function AboutSection() {
 				<article className="col-span-3 md:col-span-2">
 					<p>
 						Cześć! Jestem <span className="text-foreground">Sebastian</span> i
-						pasjonuje się programowaniem odkąd skończyłem 12 lat. Zaczynałem od
-						pluginów do minecrafta w Javie i tworzenia własnych serwerów.
+						pasjonuję się programowaniem odkąd skończyłem 12 lat. Zaczynałem od
+						pluginów do Minecrafta w Javie i tworzenia własnych serwerów.
 					</p>
 					<p className="mt-2">
 						Pasję tę przeniosłem później na swoje wykształcenie i ukończyłem
@@ -64,9 +64,9 @@ export function AboutSection() {
 						umiejętności miękkie - praca w zespole i komunikacja.
 					</p>
 					<p className="mt-2">
-						Obecnie jestem przyszłym studentem, a w wolnym czasie realizuję
+						Wkrótce rozpoczynam studia, a w wolnym czasie realizuję
 						projekty webowe z wykorzystaniem{" "}
-						<span className="text-foreground">TypeScripta oraz Pythona</span> a
+						<span className="text-foreground">Reacta, TypeScripta oraz Dockera</span> a
 						także pracuję z serwerami{" "}
 						<span className="text-foreground">Oracle</span> i systemem{" "}
 						<span className="text-foreground">Linux</span>.
