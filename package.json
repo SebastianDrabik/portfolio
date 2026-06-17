@@ -18,7 +18,7 @@
     "start": "node .output/server/index.mjs",
     "preview": "vite preview --host",
     "test": "vitest run",
-    "format": "biome format",
+    "format": "npx @biomejs/biome format --write",
     "lint": "biome lint",
     "check": "biome check"
   },

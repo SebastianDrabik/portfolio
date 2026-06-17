@@ -15,9 +15,9 @@ export function Section({
 		<section className={bgMode === "secondary" ? "bg-" : ""}>
 			<div className="max-w-7xl mx-auto px-2">
 				<h2 className="text-xl flex items-center mb-6">
-					<span className="p-1 bg-primary/10 border-primary border-2 text-primary uppercase text-sm mr-2">
+					<div className="p-1 bg-primary/10 border-primary border-2 text-primary uppercase text-sm mr-2 shadow-md shadow-primary/30">
 						{tag}
-					</span>
+					</div>
 					<span className="text-foreground mr-3 max-w-max font-bold text-2xl">
 						{title}
 					</span>

@@ -34,7 +34,7 @@ export function ContactSection() {
 					</Button>
 				</div>
 
-				<div className="mt-6 flex gap-4">
+				<div className="mt-6 flex flex-wrap gap-4">
 					<ButtonWithIcon icon={DiGithubBadge} variant="outline">
 						<a
 							href="https://github.com/SebastianDrabik"

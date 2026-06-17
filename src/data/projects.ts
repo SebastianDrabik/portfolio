@@ -26,17 +26,6 @@ export const projects: Project[] = [
 		status: "done",
 	},
 	{
-		id: 3,
-		title: "new Hero 2",
-		description:
-			"Fabularna gra 2D, będąca kontynuacją serii new Hero( ). W tej części gracz uczy się o zagrożeniach w sieci oraz metodach przeciwdziałania im.",
-		url: "",
-		tech_stack: ["C#", "Unity", "Blender"],
-		image: newHero2_thumbnail,
-		notes: ["CyberMoc Bezpieczny Internet 2025", "Wyróżnienie"],
-		status: "done",
-	},
-	{
 		id: 4,
 		title: "The Final Parsec",
 		description:
@@ -44,7 +33,7 @@ export const projects: Project[] = [
 		url: "https://thefinalparsec.github.io/",
 		tech_stack: ["C#", "Unity", "Blender"],
 		image: tfp_thumbnail,
-		notes: ["GEEK 2025/26", "Zwycięzca w województwie"],
+		notes: ["GEEK 2025/26", "II miejsce w Polsce"],
 		status: "done",
 	},
 	{
@@ -56,6 +45,17 @@ export const projects: Project[] = [
 		tech_stack: ["C#", "Unity", "Blender"],
 		image: newHero_thumbnail,
 		notes: ["GEEK 2022/23", "2 miejsce w kraju"],
+		status: "done",
+	},
+	{
+		id: 3,
+		title: "new Hero 2",
+		description:
+			"Fabularna gra 2D, będąca kontynuacją serii new Hero( ). W tej części gracz uczy się o zagrożeniach w sieci oraz metodach przeciwdziałania im.",
+		url: "",
+		tech_stack: ["C#", "Unity", "Blender"],
+		image: newHero2_thumbnail,
+		notes: ["CyberMoc Bezpieczny Internet 2025", "Wyróżnienie"],
 		status: "done",
 	},
 	{
