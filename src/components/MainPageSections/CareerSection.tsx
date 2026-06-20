@@ -4,7 +4,7 @@ import { timeline as timelineData } from "#/data/timeline.tsx";
 
 export function CareerSection() {
 	return (
-		<Section title={"Kariera"} tag={"career"}>
+		<Section tag={"career"}>
 			<div className="md:w-2/3">
 				<Timeline items={timelineData}></Timeline>
 			</div>

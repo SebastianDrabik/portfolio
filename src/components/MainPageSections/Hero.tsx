@@ -1,6 +1,6 @@
-import HeroBg from "#/styles/HeroBackground.module.css";
-import Typewriter from "#/components/ui/typewriter.tsx";
 import { Dot } from "#/components/ui/dot.tsx";
+import Typewriter from "#/components/ui/typewriter.tsx";
+import HeroBg from "#/styles/HeroBackground.module.css";
 
 export function Hero() {
 	// TODO: Hero background with canvas(p5.js)
@@ -18,8 +18,8 @@ export function Hero() {
 					<div className={HeroBg.stars3}></div>
 				</div>
 			</div>
-			<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-				<h1 className="text-5xl sm:text-7xl font-bold text-foreground">
+			<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-mono">
+				<h1 className="text-5xl sm:text-8xl font-bold text-foreground">
 					Sebastian
 					<br />
 					<span className="text-primary">Drabik</span>

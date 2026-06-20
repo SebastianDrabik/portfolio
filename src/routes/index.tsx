@@ -5,6 +5,7 @@ import { ContactSection } from "#/components/MainPageSections/ContactSection.tsx
 import { ProjectsSection } from "#/components/MainPageSections/ProjectsSection.tsx";
 import { TechStackSection } from "#/components/MainPageSections/TechStackSection.tsx";
 import { CareerSection } from "#/components/MainPageSections/CareerSection.tsx";
+import {SectionProvider} from "#/components/SectionProvider.tsx";
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -14,12 +15,14 @@ function Home() {
 	return (
 		<>
 			<Hero />
-			<div className="flex flex-col gap-20 py-20 snap-center">
-				<AboutSection />
-				<ProjectsSection />
-				<TechStackSection />
-				<CareerSection />
-				<ContactSection />
+			<div className="flex flex-col py-20 gap-10 snap-center">
+				<SectionProvider>
+					<AboutSection />
+					<ProjectsSection />
+					<TechStackSection />
+					<CareerSection />
+					<ContactSection />
+				</SectionProvider>
 			</div>
 		</>
 	);

@@ -5,7 +5,7 @@ import { techstack } from "#/data/techstack.tsx";
 
 export function TechStackSection() {
 	return (
-		<Section tag="tech-stack" title="Narzędzia z jakich korzystam">
+		<Section tag="skills">
 			<div className="flex flex-col gap-6">
 				{techstack.map((t) => (
 					<div key={t.section}>

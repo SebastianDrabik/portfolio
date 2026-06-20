@@ -1,29 +1,28 @@
+import {ClientOnly} from "@tanstack/react-router";
+import {useSectionNumber} from "#/components/SectionProvider.tsx";
+
 export function Section({
-	title,
 	tag,
 	children,
 	bgMode = "default",
 }: {
-	title: string;
 	tag: string;
 	children?: React.ReactNode;
 	bgMode?: "default" | "secondary";
 }) {
 	// TODO: secondary color
+	const num = useSectionNumber()
 
 	return (
 		<section className={bgMode === "secondary" ? "bg-" : ""}>
 			<div className="max-w-7xl mx-auto px-2">
-				<h2 className="text-xl flex items-center mb-6">
-					<div className="p-1 bg-primary/10 border-primary border-2 text-primary uppercase text-sm mr-2 shadow-md shadow-primary/30">
-						{tag}
-					</div>
-					<span className="text-foreground mr-3 max-w-max font-bold text-2xl">
-						{title}
-					</span>
-					<div className="bg-gray-600 flex-1 h-px mb-1"></div>
+				<h2 className="relative select-none font-zen-dots uppercase tracking-wider my-24">
+					<ClientOnly>
+						<span className="absolute text-white/15 -top-3.5 left-0 text-xl">{String(num).padStart(2, '0')}</span>
+					</ClientOnly>
+					<span className="text-6xl md:text-8xl text-white/20">{tag}</span>
 				</h2>
-				<div className="text-muted-foreground mt-4 mx-1">{children}</div>
+				<div className="text-muted-foreground px-1 md:px-3">{children}</div>
 			</div>
 		</section>
 	);

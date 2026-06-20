@@ -35,7 +35,7 @@ function AboutCard({
 
 export function AboutSection() {
 	return (
-		<Section title={"O mnie"} tag={"about"}>
+		<Section tag={"about"}>
 			<div className="grid grid-cols-3 gap-3 md:gap-12">
 				<article className="col-span-3 md:col-span-2">
 					<p>

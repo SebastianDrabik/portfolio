@@ -67,12 +67,16 @@ function ProjectCard({ project }: { project: Project }) {
 
 export function ProjectsSection() {
 	return (
-		<Section title={"Wybrane projekty"} tag={"projects"} bgMode={"secondary"}>
+		<Section tag={"projects"} bgMode={"secondary"}>
 			<div className={"grid grid-cols-1 md:grid-cols-2 gap-4"}>
 				{featuredProjects.map((project) => (
 					<ProjectCard project={project} key={project.id} />
 				))}
 			</div>
+			{/* TODO */}
+			{/*<div className='mt-6'>*/}
+			{/*	<ButtonWithIcon icon={MdArrowOutward} variant='secondary' className="w-1/4 mx-auto" >Zobacz wszystkie</ButtonWithIcon>*/}
+			{/*</div>*/}
 		</Section>
 	);
 }

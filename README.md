@@ -1,6 +1,6 @@
 # Portfolio - https://srabik.dev/
 
-To moja strona portfolio, na której prezentuję swoje projekty i umiejętności. Znajdziesz tutaj informacje o mojej edukacji, doświadczeniu zawodowym oraz kontakt do mnie. Zapraszam do zapoznania się z moimi pracami i współpracy!
+To moja strona portfolio, na której prezentuję swoje projekty i umiejętności. Znajdziesz tutaj informacje o mojej edukacji, doświadczeniu zawodowym oraz kontakt do mnie. 
 
 ![live.gif](.github/live.gif)
 
@@ -36,4 +36,6 @@ Domeną zarządza Cloudflare.
   - [ ] Gwiazdki w tle sekcji Hero dynamicznie z p5js oraz ciekawy efekt(np. na podstawie commitow z GH) 
   - [ ] Animacje na stronie
   - [ ] Blog
-  - [ ] 
+  - [ ] Custom CI/CD pipeline
+  - [ ] translacje en/pl (paraglidejs)
+  - [ ] Sekcja z certyfikatami

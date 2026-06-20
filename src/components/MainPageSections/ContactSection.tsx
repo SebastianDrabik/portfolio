@@ -13,7 +13,7 @@ export function ContactSection() {
 	}
 
 	return (
-		<Section title={"Dane kontaktowe i linki"} tag={"contact"}>
+		<Section tag={"contact"}>
 			<div className="flex flex-col place-items-center bg-card w-full rounded-sm py-10 px-6 border">
 				<h2 className="text-4xl text-foreground">Skontaktuj się ze mną.</h2>
 				<CommentSpan className="mt-2">

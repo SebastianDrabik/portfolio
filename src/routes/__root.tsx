@@ -7,6 +7,10 @@ import { Header } from "#/components/Header.tsx";
 import { Footer } from "#/components/Footer.tsx";
 import { richMedia } from "#/lib/media-util.ts";
 
+import {QueryClientProvider, QueryClient} from "@tanstack/react-query";
+
+const qc = new QueryClient();
+
 export const Route = createRootRoute({
 	head: () => ({
 		meta: [
@@ -43,20 +47,22 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 				<HeadContent />
 			</head>
 			<body className="bg-background text-gray-900 font-jetbrains-mono font-bold dark snap-y snap-mandatory">
-				<Header />
-				{children}
-				<TanStackDevtools
-					config={{
-						position: "bottom-right",
-					}}
-					plugins={[
-						{
-							name: "Tanstack Router",
-							render: <TanStackRouterDevtoolsPanel />,
-						},
-					]}
-				/>
-				<Footer />
+				<QueryClientProvider client={qc}>
+					<Header />
+					{children}
+					<TanStackDevtools
+						config={{
+							position: "bottom-right",
+						}}
+						plugins={[
+							{
+								name: "Tanstack Router",
+								render: <TanStackRouterDevtoolsPanel />,
+							},
+						]}
+					/>
+					<Footer />
+				</QueryClientProvider>
 				<Scripts />
 			</body>
 		</html>
